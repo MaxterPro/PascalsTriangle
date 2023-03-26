@@ -6,7 +6,7 @@ public class PascalTriangle {
         List<List<Integer>> res = generate(numRows);
         System.out.println(res);
     }
-
+    // function generate Pascal Triangle
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> arr = new ArrayList<>(new ArrayList<>());
         List<Integer> last = new ArrayList<>();
